@@ -3,18 +3,7 @@
 > A real-time news summarization platform that condenses lengthy news articles into concise, meaningful summaries using both **Abstractive (BART-large)** and **Extractive (KNN + TF-IDF)** NLP techniques.
  
 ---
- 
-## 🧾 Project Info
- 
-| Field | Details |
-|---|---|
-| **Author** | Omkar Vijay Surve |
-| **College** | S. M. Shetty College of Science, Commerce and Management Studies (Autonomous), Powai, Mumbai |
-| **Degree** | Bachelor of Science — Data Science (Semester VI) |
-| **Academic Year** | 2024–2025 |
-| **Guide** | Asst. Prof. Vaibhav Kandalkar |
- 
----
+
  
 ## 📌 Table of Contents
  
@@ -240,34 +229,24 @@ Visit `http://127.0.0.1:5000` in your browser.
 8. Submit **Feedback** to help improve the system.
 ---
  
-## 📁 Project Structure
+## 📁 Repository Structure
  
 ```
 newsnutshell/
 │
 ├── app.py                        # Flask application entry point
-├── requirements.txt              # Python dependencies
-├── .env                          # Environment variables (not committed)
-│
-├── models/
-│   ├── best_bartlarge_model/     # Fine-tuned BART model weights
-│   └── best_bartlarge_tok/       # BART tokenizer
 │
 ├── summarizers/
 │   ├── abstractive.py            # BART-large abstractive summarizer
 │   └── extractive.py             # KNN + TF-IDF extractive summarizer
 │
 ├── static/
-│   ├── css/                      # Stylesheets
-│   └── js/                       # JavaScript files
+│   └── css/                      # Stylesheets
 │
 ├── templates/
 │   ├── login.html
 │   ├── register.html
-│   ├── home.html
-│   ├── summarize.html
-│   ├── history.html
-│   └── feedback.html
+│   └── index.html
 │
 ├── notebooks/
 │   ├── abstractive_bart.ipynb    # BART training notebook (Kaggle/Colab)
@@ -275,24 +254,6 @@ newsnutshell/
 │
 └── README.md
 ```
- 
----
- 
-## 📸 Screenshots
- 
-| Login Page | Home — Latest CNN News |
-|---|---|
-| ![Login](screenshots/login.png) | ![Home](screenshots/home.png) |
- 
-| Abstractive Summarize | Extractive Summarize |
-|---|---|
-| ![Abstractive](screenshots/abstractive.png) | ![Extractive](screenshots/extractive.png) |
- 
-| Summary History (Admin) | Feedback Panel |
-|---|---|
-| ![History](screenshots/history.png) | ![Feedback](screenshots/feedback.png) |
- 
-> Add screenshots to a `screenshots/` folder in the repository.
  
 ---
  
@@ -327,12 +288,4 @@ newsnutshell/
 - Development supported by Google Colab, Kaggle, and VS Code
 ---
  
-## 📄 License
- 
-This project was developed for academic purposes as part of the Bachelor of Science in Data Science program at S. M. Shetty College, Mumbai (2024–2025). Feel free to use or build upon it with appropriate credit.
- 
----
- 
-<p align="center">
-  Made with ❤️ by <strong>Omkar Vijay Surve</strong> | S. M. Shetty College, Powai, Mumbai
-</p>
+
