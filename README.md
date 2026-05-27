@@ -16,7 +16,7 @@
 - [Model Performance](#model-performance)
 - [Installation](#installation)
 - [Usage](#usage)
-- [Project Structure](#repository-structure)
+- [Repository Structure](#repository-structure)
 - [Challenges & Limitations](#challenges--limitations)
 - [Future Work](#future-work)
 - [References](#references)
