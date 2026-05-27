@@ -235,10 +235,6 @@ newsnutshell/
 │
 ├── app.py                        # Flask application entry point
 │
-├── summarizers/
-│   ├── abstractive.py            # BART-large abstractive summarizer
-│   └── extractive.py             # KNN + TF-IDF extractive summarizer
-│
 ├── static/
 │   └── css/                      # Stylesheets
 │
